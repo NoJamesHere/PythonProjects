@@ -52,6 +52,8 @@ clock = pygame.time.Clock() #the games clock or sum
 while running:
     clock.tick(60) # FPS set to 60
     bonk_sound = pygame.mixer.Sound("bonk.wav")
+    # BACKGROUND
+    screen.fill((30,30, 30))
     closest_x = max(x_rect, min(x_circle, x_rect + size_rect))
     closest_y = max(y_rect, min(y_circle, y_rect + size_rect))
     dx = x_circle - closest_x
@@ -156,7 +158,7 @@ while running:
     else:
         speed_circle = 3
         pygame.draw.circle(screen, draw_color_circle, (x_circle, y_circle), radius_circle)
-
+    
     if keys[pygame.K_j]:
         if size_rect < 360:
             size_rect += 1
@@ -176,9 +178,6 @@ while running:
     
     x_rect = max(0, min(width - size_rect, x_rect))
     y_rect = max(0, min(height - size_rect, y_rect))
-
-    # BACKGROUND
-    screen.fill((30,30, 30))
 
 
 
