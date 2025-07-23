@@ -1,5 +1,7 @@
 import pyautogui
 import time
+from plyer import notification
+
 TextToType = input("What do you want to type?\n")
 Running = True
 
@@ -18,5 +20,10 @@ while Running:
             pyautogui.write(TextToType, interval=0.1)
             pyautogui.press("enter")
         print(f"\nPrinted your text '{TextToType}' {NumberOfTexts} times.\nGoodbye.")
+        notification.notify(
+            title="Spam Typer",
+            message="The text has been typed out!",
+            timeout=10
+        )
         Running = False
-        
+
