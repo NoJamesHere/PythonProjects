@@ -2,6 +2,7 @@ from cryptography.fernet import Fernet
 import json
 import os
 
+
 # Get the path to the folder where the script is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(BASE_DIR, "data.json")
@@ -58,6 +59,8 @@ which = input("Encrypt and save Data / Read and Decrypt data? (a/b): ").lower()
 
 key = load_or_generate_key()
 fernet = Fernet(key)
+
+
 
 if which == "a":
     user = input("What Username should the password be assigned with?: ")
