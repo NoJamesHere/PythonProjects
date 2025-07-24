@@ -12,3 +12,5 @@
 ##### Self explaining
 ### - A Number guessing game
 ##### What isn't that fun?
+### - A password manager!
+##### I have to polish it with some other functions, but this is it for now..
