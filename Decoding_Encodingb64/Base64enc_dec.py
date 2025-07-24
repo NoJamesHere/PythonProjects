@@ -1,36 +1,35 @@
 import base64
 
-msg = input("Your message: ")
-encodedmsg = ""
-sum = input("Do you want to encode this message? (y/n)")
+sum = input("Decode / Encode? (d/e) (q to quit): ").lower()
+
 
 def encodeit():
-    global encodedmsg
+    msg = input("Your message: ")
     encodedmsg = base64.b64encode(msg.encode())
     print("Encoded:", encodedmsg.decode())  # Optional: decode for readable output
 
 def decodeit():
-    decodedmsg = base64.b64decode(encodedmsg).decode()
-    print("\n\nEncoded:", encodedmsg.decode())
-    print("Decoded:", decodedmsg)
+    msg = input("Your base64 string to decode: ")
+    if(msg.lower() == "q"):
+        print("Goodbye.")
+        return
+    else:
+        try:
+            decodedmsg = base64.b64decode(msg).decode()
+            print("\n\nEncoded:", msg)
+            print("Decoded:", decodedmsg)
+            print("Goodbye.")
+        except Exception as e:
+            print(f"An error occurred while decoding: {e}")
 
 question1 = sum.lower()
-if(question1 == "y"):
-    encodeit()
-elif(question1 =="n"):
-    print("Goodbye.")
-else:
-    print("Invalid input. Please rerun the program.")
-
-question = input("Do you want to decode it? (y/n): ").lower()
-
-if question == "y":
+if(question1 == "d"):
     decodeit()
-elif question == "n":
+elif(question1 == "e"):
+    encodeit()
+elif(question1 == "q"):
     print("Goodbye.")
 else:
     print("Invalid input. Please rerun the program.")
-
-
 
 
