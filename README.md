@@ -13,7 +13,7 @@ If you're interested in using this code or collaborating, please reach out via G
 
 This project is licensed under strict proprietary terms.
 
-All rights reserved © 2025 James Nothere.  
+All rights reserved © 2025 @NoJamesHere.  
 Do not copy, redistribute, or use this code for personal or commercial gain.  
 For questions about usage, contact me directly.
 
