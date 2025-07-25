@@ -1,0 +1,123 @@
+body{
+    background-color: #5b63c0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, p{
+    color:rgb(182, 213, 236);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.container{
+    width: 80%;
+    min-height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #373c6e;
+    padding:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0;
+}
+
+.container2{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #373c6e;
+    margin-top:20px;
+    padding:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 10px 10px;
+}
+
+#test{
+    color:rgb(34, 34, 34);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 40px;
+    margin-top:30px;
+    padding:5px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width:500px;
+    max-height:150px;
+    min-height:55px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    word-break: break-all;
+    white-space: nowrap;;
+}
+#test::-webkit-scrollbar {
+    height: 12px;              /* horizontal scrollbar height */
+    background: #e0e3fa;      /* track color */
+    border-radius: 8px;
+}
+
+#test::-webkit-scrollbar-thumb {
+    background: #6370ff;      /* thumb color */
+    border-radius: 8px;
+    border: 2px solid #e0e3fa; /* creates a gap between thumb and track edge */
+}
+
+#test::-webkit-scrollbar-thumb:hover {
+    background: #4852b8;      /* thumb color on hover */
+}
+
+.decoder{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d7dbfc;
+    margin-top:20px;
+    padding:5px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#userInput{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3e4057;
+    margin-top:20px;
+    font-size:100%;
+    border-width:0px;
+    color:#d7dbfc;
+    font-weight:bolder;
+    border-radius:10px;
+}
+
+.container2 button {
+    width: 50%;
+    height: 50px;
+    background-color: #6370ff;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s, transform 0.2s, margin-top 0.2s;
+
+}
+
+.container2 button:hover {
+    background-color: #5058d9;
+    transform: scale(1.05);
+    margin-top: scale(1.15);
+}
