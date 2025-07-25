@@ -13,7 +13,6 @@ def home():
 def echo():
     if not themessage:
         return jsonify({"error": "No message received"}), 400
-    global themessage
     data = request.get_json()
     themessage = data.get('msg', '')
     return jsonify({"msg": themessage})
