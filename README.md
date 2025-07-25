@@ -17,3 +17,5 @@
 ### - A dice roll game!
 ##### Pretty cool i guess.
 ###### Idea: Maybe a gui next?
+### - A Flask API website
+##### Just to experiment :D
