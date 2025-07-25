@@ -8,6 +8,16 @@ This repository is intended for **educational and personal reference only**.
 If you're interested in using this code or collaborating, please reach out via GitHub.
 
 ---
+
+## License
+
+This project is licensed under strict proprietary terms.
+
+All rights reserved © 2025 James Nothere.  
+Do not copy, redistribute, or use this code for personal or commercial gain.  
+For questions about usage, contact me directly.
+
+---
 ---
 
 # These are some one of the python projects i am or have been working on :D
