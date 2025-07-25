@@ -56,7 +56,7 @@ h1, h2, p{
     overflow-x:auto;
     overflow-y:hidden;
     word-break: break-all;
-    white-space: nowrap;;
+    white-space: nowrap;
 }
 #test::-webkit-scrollbar {
     height: 12px;              /* horizontal scrollbar height */
@@ -112,12 +112,27 @@ h1, h2, p{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 5px;
-    transition: background-color 0.3s, transform 0.2s, margin-top 0.2s;
+    transition: background-color 0.3s, transform 0.2s ease, margin-top 0.2s;
 
 }
 
 .container2 button:hover {
     background-color: #5058d9;
     transform: scale(1.05);
-    margin-top: scale(1.15);
+    transform-origin: center;
+}
+
+
+@media (max-width: 600px) {
+  .container, .container2, .decoder {
+    width: 95%;
+  }
+
+  #userInput, .container2 button {
+    width: 90%;
+  }
+
+  #test {
+    font-size: 24px;
+  }
 }
