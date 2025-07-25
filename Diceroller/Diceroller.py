@@ -13,7 +13,7 @@ while running:
     }
     for i in range(9):
         number = random.randint(1,6)
-        print (f"Dice: {number}")
+        print (f"Dice: {number}", end="\r")
         time.sleep(0.5)
 
     time.sleep(1.5)
