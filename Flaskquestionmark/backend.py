@@ -11,6 +11,7 @@ def home():
 
 @app.route('/api/echo', methods=['POST'])
 def echo():
+    global themessage
     if not themessage:
         return jsonify({"error": "No message received"}), 400
     data = request.get_json()
