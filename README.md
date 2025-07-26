@@ -38,7 +38,7 @@ For questions about usage, contact me directly.
 ##### I have to polish it with some other functions, but this is it for now..
 ### - A dice roll game!
 ##### Pretty cool i guess.
-###### Idea: Maybe a gui next?
+###### Idea: Maybe a gui next? (Done!)
 ### - A Flask API website
 ##### Just to experiment :D
 ### - Black jack (21)
