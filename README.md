@@ -41,3 +41,9 @@ For questions about usage, contact me directly.
 ###### Idea: Maybe a gui next?
 ### - A Flask API website
 ##### Just to experiment :D
+### - Black jack (21)
+##### Still needs dealer logic tho but its still cool :D
+### - Hang man
+##### Self explaining
+### - Rock Paper Scissor
+##### Veryy basic but still
