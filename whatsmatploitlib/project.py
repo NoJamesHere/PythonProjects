@@ -3,7 +3,6 @@ import random
 import numpy as np
 import matplotlib.animation as animation
 from matplotlib.cm import plasma
-
 # line chart for mood over the week
 
 days = ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun']
