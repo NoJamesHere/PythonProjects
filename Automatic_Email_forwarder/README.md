@@ -25,6 +25,15 @@ export GMAIL_APP_PASSWORD="your16digitapp"
 
 ---
 
+#### if you wanna use the script as a module, use this function:
+send_emails(receiver_list, sender, subject, body, password)
+
+- 'receiver_list': e.g. ("email1@email.com, email2@email.com, ...")
+- 'sender': your own email address
+- 'subject' of the email
+- 'body' of the email; aka. the content inside the email
+- 'password': your 16-digit google app password
+
 ### Code explanation:
 '''# importing smtplib ; for actually sending the email through gmail
 import smtplib
