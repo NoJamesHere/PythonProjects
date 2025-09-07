@@ -1,1 +1,12 @@
-test hello there lol
+test hello there lol I am using vnim.
+print("hello world")
+print("This text has been changed up to this point:Hello World")
+
+deleting some sentences is pretty easy. From here (!) to, the end. !
+Yeah it's gone.
+
+deleting with de and dw
+
+hello world I have many big in my bag and may eat them.
+
+I have no Idea what the difference between de and dw is.. Anyways.
