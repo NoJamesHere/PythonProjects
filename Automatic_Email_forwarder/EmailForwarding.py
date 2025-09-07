@@ -84,7 +84,6 @@ def send_emails(receiver_list, sender, subject, body, password, slow = False):
                 continue
             remaining = len(receiver_list) - i - 1       
             try:
-                sent_atleast_once = True
                 msg = MIMEMultipart()
                 msg["From"] = sender
                 msg["To"] = receiver
