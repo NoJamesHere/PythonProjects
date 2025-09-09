@@ -35,7 +35,7 @@ send_emails(receiver_list, sender, subject, body, password, slow = False)
 - 'password': your 16-digit google app password
 - (optional) 'slow': if slow = True, wait for 5 seconds after every email. Otherwise wait for 1 seconds.
 ### Code explanation:
-'''# importing smtplib ; for actually sending the email through gmail
+"""# importing smtplib ; for actually sending the email through gmail
 import smtplib
 
 # for accessing the gmail 16-digit passcode (more in README.md file)
@@ -117,4 +117,4 @@ for receiver in receiverList:
 
 
 # This message gets printed if no errors were thrown:
-print("Message(s) sent successfully!")'''
+print("Message(s) sent successfully!")"""
